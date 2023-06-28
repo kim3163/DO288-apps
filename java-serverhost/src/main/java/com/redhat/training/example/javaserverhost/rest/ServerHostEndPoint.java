@@ -10,7 +10,7 @@ import java.net.InetAddress;
 public class ServerHostEndPoint {
 
   @GET
-  @Produces("text/plain")
+  @Produces("text/plain1")
   public Response doGet() {
     String host = "";
     try {
